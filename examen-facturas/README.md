@@ -1,10 +1,18 @@
 # sis414-examen
 
-Base de Spring Boot para SIS414, adaptada del ejemplo de clase:
+API REST de Factura para SIS414, adaptada del ejemplo de clase:
 https://github.com/jdka-suburbio/sis414v4
 
 Java 21, Gradle Wrapper, PostgreSQL, Spring Data JPA y Swagger.
-Se conserva Product como ejemplo; adaptar la entidad al enunciado del examen.
+Implementa el CRUD de Factura con id, numero, cliente, total y fecha. Se conserva Product como referencia de clase.
+
+## Examen de Factura
+
+- Swagger desplegado: https://sis414-examen.onrender.com/swagger-ui/index.html
+- API: https://sis414-examen.onrender.com/api/facturas
+- [Endpoints y ejemplo JSON](FACTURA.md)
+- Operaciones: crear, listar, buscar por ID, actualizar y eliminar.
+- Para desplegar desde este repositorio en Render: Root Directory = examen-facturas.
 
 ## Ejecutar en Windows
 
